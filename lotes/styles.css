@@ -1,0 +1,299 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #343a40 !important; /* Agrega !important para asegurar que el estilo se aplique */
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important; /* Agrega !important para asegurar que el estilo se aplique */
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+#caracteristicas,
+#ubicacion,
+#contacto {
+    margin-top: 40px;
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 0 45%;
+}
+
+.box h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.box a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.credit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Añade más estilos según sea necesario */
+
+.light-icon {
+    color: #e6edef;
+}
+
+/* Estilos para el formulario de contacto */
+
+#contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contacto .form-label {
+    color: #fff;
+}
+
+#contacto .form-control {
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#contacto button {
+    background-color: #000; /* Cambiado a negro */
+    color: #fff;
+    border: none; /* Eliminado el borde */
+    transition: background-color 0.3s ease; /* Agregado efecto de transición */
+}
+
+#contacto button:hover {
+    background-color: #333; /* Cambiado a un negro más claro al pasar el mouse */
+}
+
+/* Estilos adicionales para hacer el formulario más atractivo */
+
+#contacto p {
+    font-size: 18px;
+}
+
+#contacto textarea {
+    resize: vertical;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 0 45%;
+}
+
+.box h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.box a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.credit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#caracteristicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-box {
+    margin: 10px 0; /* Espaciado entre los cuadrados */
+}
+
+.feature-box h4 {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0; /* Espaciado interno entre el texto y el borde */
+}
+
+.map iframe {
+    width: 400px;
+    height: 300px;
+}
+
+/* Estilos personalizados para el contenedor del título */
+.title-container {
+    border: 2px solid #fff; /* Bordes blancos */
+    border-radius: 10px; /* Esquinas redondeadas */
+    display: inline-block; /* Alinea el contenedor con el texto */
+}
+
+.title-container h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-container p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+.title-container.no-background {
+    background-color: transparent; /* Sin color de fondo */
+    padding: 0; /* Sin relleno alrededor del título */
+}
+
+#caracteristicas .row {
+    display: flex;
+    align-items: flex-start;
+}
+
+#caracteristicas .col-md-6.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Estilos predeterminados para todos los tamaños de pantalla */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos predeterminados para todos los tamaños de pantalla */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos para pantallas pequeñas (S) */
+@media (min-width: 320px) {
+    .carousel-inner {
+        border-radius: 5px; /* Radio de borde ajustado para pantallas pequeñas */
+    }
+
+    #caracteristicas,
+    #ubicacion,
+    #contacto {
+        margin-top: 20px; /* Margen superior ajustado para pantallas pequeñas */
+    }
+
+    .footer {
+        padding: 20px 0; /* Relleno ajustado para pantallas pequeñas */
+    }
+
+    .box-container {
+        flex-direction: column; /* Dirección flex ajustada para pantallas pequeñas */
+    }
+
+    .box {
+        flex: 0 0 100%; /* Ancho ajustado para pantallas pequeñas */
+    }
+
+    .map iframe {
+        width: 100%; /* Ancho ajustado para pantallas pequeñas */
+        height: 200px; /* Altura ajustada para pantallas pequeñas */
+    }
+
+    .title-container h1 {
+        font-size: 20px; /* Tamaño de fuente ajustado para pantallas pequeñas */
+    }
+
+    .title-container p {
+        font-size: 0.9rem; /* Tamaño de fuente ajustado para pantallas pequeñas */
+    }
+}
+
+/* Estilos para pantallas pequeñas (M) */
+@media (min-width: 375px) {
+    .carousel-inner {
+        border-radius: 8px; /* Radio de borde ajustado para pantallas pequeñas (M) */
+    }
+
+    .box {
+        flex: 0 0 48%; /* Ancho ajustado para pantallas pequeñas (M) */
+    }
+}
+
+/* Estilos para pantallas medianas y más grandes */
+@media (min-width: 768px) {
+    .carousel-inner {
+        border-radius: 10px; /* Radio de borde ajustado para pantallas más grandes */
+    }
+
+    #caracteristicas,
+    #ubicacion,
+    #contacto {
+        margin-top: 60px; /* Margen superior aumentado para pantallas más grandes */
+    }
+
+    .footer {
+        padding: 60px 0; /* Relleno aumentado para pantallas más grandes */
+    }
+
+    .box-container {
+        flex-direction: row; /* Dirección flex ajustada para pantallas más grandes */
+    }
+
+    .box {
+        flex: 0 0 48%; /* Ancho ajustado para pantallas más grandes */
+    }
+}
+
+/* Estilos para pantallas grandes y más grandes */
+@media (min-width: 1200px) {
+    .map iframe {
+        width: 600px; /* Ancho aumentado para pantallas más grandes */
+        height: 400px; /* Altura ajustada para pantallas más grandes */
+    }
+}
+
+/* Ajustes de tamaño de fuente responsivos para pantallas pequeñas */
+@media (max-width: 767px) {
+    .title-container h1 {
+        font-size: 24px; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+
+    .title-container p {
+        font-size: 1rem; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+}
